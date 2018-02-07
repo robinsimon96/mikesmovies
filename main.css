@@ -1,0 +1,226 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+@font-face {
+font-family: "Bold";
+src: url("fonts/BowlbyOneSC-Regular.ttf");
+}
+@font-face {
+font-family: "Thin";
+src: url("fonts/CabinCondensed-Medium.ttf");
+}
+
+#enter{
+	background-image: url(img/welcome-bckgrnd.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+#enter-text{
+	margin: auto;
+	text-align: center;
+	padding-top: 40vh;
+	color: white;
+	font-family: Bold;
+}
+#enter-text h1{
+	font-size: 80px;
+	text-shadow: -5px 5px 0 #9c0019; 
+	line-height: 45px;
+}
+#enter-text h2{
+	font-size: 25px;
+	line-height: 10px;
+}
+#enter p{
+	color: white;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding-right: 20px;
+	font-family: thin;
+}
+#enter img{
+	width: 50px;
+}
+#enter img:hover{
+	width: 60px;
+	transition-duration: .5s;
+}
+header{
+	background-color: #9bd1f3;
+	height: auto;
+	padding-bottom: 15px;
+
+}
+header h1{
+	font-size: 80px;
+	text-shadow: -5px 5px 0 #9c0019; 
+	line-height: 45px;
+	font-family: Bold;
+	color: white;
+	padding: 35px;
+	margin: 0;
+}
+header h2{
+	font-size: 25px;
+	line-height: 10px;
+	font-family: Bold;
+	color: #9c0019;
+	padding: 0 0 0 35px;
+	margin: 0;
+}
+nav{
+	background-color: #021928;
+	padding: 5px;
+}
+nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	font-family: Bold;
+	font-size: 20px;
+	padding-right: 30px;
+	color: white;
+}
+.parallax{
+	min-height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#archives{
+	padding-top: 30px;
+}
+.archive-entry{
+	height: 200px;
+}
+#archives h1{
+	font-family: Bold;
+	color: white;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.review-preview{
+	height: 400px;
+	padding: 100px 0 100px 10vw;
+	background-color: #021928;
+	margin-top: -300px;
+}
+.review-preview h3{
+	font-family: Bold;
+	color: white;
+	margin-top: -10px;
+}
+.review-preview h4{
+	font-family: Thin;
+	color: white;
+	margin-top: 20px;
+}
+.review-preview p{
+	color: white;
+	padding-right: 20px;
+	font-family: thin;
+}
+.review img{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.review h2{
+	font-size: 35px;
+	font-family: Bold;
+	padding-top: 30px;
+}
+.review h3{
+	font-size: 25px;
+	font-family: Bold;
+	text-align: center;
+}
+.review p{
+	font-size: 20px;
+	font-weight: 100;
+	font-family: thin;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+	#enter-text h1{
+		font-size: 60px;
+		text-shadow: -5px 5px 0 #9c0019; 
+		line-height: 55px;
+	}
+	#enter-text h2{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	header h1{
+		font-size: 60px;
+		text-shadow: -3px 3px 0 #9c0019;
+		line-height: 55px;
+	}
+	header h2{
+		font-size: 20px;
+		line-height: 20px;
+		margin-top: -20px;
+	}
+	nav ul li{
+		font-size: 15px;
+		padding-top: 10px;
+	}
+	.review-preview{
+		height: auto;
+		padding: 30px 0;
+		margin-top: -400px;
+	}
+	.parallax{
+		min-height: 700px;
+	}
+	.review p{
+		font-size: 16px;]
+	}
+	#archives h1{
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width : 769px) and (max-width : 992px) {
+	#enter-text h1{
+		font-size: 60px;
+		text-shadow: -5px 5px 0 #9c0019; 
+		line-height: 65px;
+	}
+	#enter-text h2{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	header h1{
+		font-size: 60px;
+		text-shadow: -3px 3px 0 #9c0019;
+		line-height: 55px;
+	}
+	header h2{
+		font-size: 25px;
+		line-height: 20px;
+		margin-top: -20px;
+	}
+	nav ul li{
+		font-size: 15px;
+		padding-top: 10px;
+	}
+	.review-preview{
+		height: auto;
+		padding: 30px 0;
+		margin-top: -300px;
+	}
+	.parallax{
+		min-height: 600px;
+	}
+	.review p{
+		font-size: 16px;]
+	}
+}
